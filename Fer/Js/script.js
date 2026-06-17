@@ -101,7 +101,7 @@ function showSignature() {
     dedication.appendChild(signature);
   }
   let firma = getURLParam('firma');
-  signature.textContent = firma ? decodeURIComponent(firma) : "Con amor, Lucas sspp";
+  signature.textContent = firma ? decodeURIComponent(firma) : "Con amor, Lucas en 30 min paso por voz";
   signature.classList.add('visible');
 }
 
